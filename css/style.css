@@ -7,6 +7,22 @@ body {
     margin-bottom: 60px;
 }
 
+span {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+}
+
+ul li a:hover {
+    color: white;
+    transition: .1s;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -16,4 +32,10 @@ body {
     background: rgb(17, 17, 17);
     border-top: 13px solid rgb(17, 17, 17);
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footer p {
+        font-size: 12px;
+    }    
 }
